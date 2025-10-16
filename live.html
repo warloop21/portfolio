@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hello Servicer</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: "Poppins", sans-serif;
+    }
+
+    body {
+      background-color: #80c4d7;
+      color: #333;
+    }
+
+    header {
+      background-color: #0078d7;
+      color: white;
+      padding: 20px 50px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    header h1 {
+      font-size: 28px;
+      letter-spacing: 1px;
+    }
+
+    nav {
+      display: flex;
+      gap: 20px;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: 500;
+      transition: 0.3s;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 80px 20px;
+      background: linear-gradient(to right, #0078d7, #00b4d8);
+      color: white;
+    }
+
+    .hero h2 {
+      font-size: 42px;
+      margin-bottom: 10px;
+    }
+
+    .hero p {
+      font-size: 18px;
+      margin-bottom: 25px;
+    }
+
+    .btn {
+      background-color: white;
+      color: #0078d7;
+      padding: 10px 25px;
+      border-radius: 25px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+
+    .btn:hover {
+      background-color: #e3f2fd;
+    }
+
+    section {
+      padding: 60px 20px;
+      text-align: center;
+    }
+
+    .services {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+
+    .service-box {
+      background: rgb(145, 226, 238);
+      width: 280px;
+      padding: 25px;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+      transition: 0.3s;
+    }
+
+    .service-box:hover {
+      transform: translateY(-5px);
+    }
+
+    .contact {
+      background-color: #0078d7;
+      color: white;
+      padding: 40px 20px;
+      border-radius: 10px;
+      max-width: 600px;
+      margin: 40px auto;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #222;
+      color: white;
+      margin-top: 40px;
+    }
+
+    .auth-buttons {
+      display: flex;
+      gap: 10px;
+    }
+    .tittle {
+      padding-bottom :20px; ;
+
+    }
+
+    .auth-buttons button {
+      background-color: white;
+      color: #0078d7;
+      border: none;
+      padding: 8px 15px;
+      border-radius: 20px;
+      cursor: pointer;
+      font-weight: 600;
+      transition: 0.3s;
+    }
+
+    .auth-buttons button:hover {
+      background-color: #e3f2fd;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Hello Servicer</h1>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#services">Services</a>
+      <a href="#contact">Contact</a>
+    </nav>
+   
+    <div class="auth-buttons">
+      <a href="ligin_button.html">
+      <button>Login</button>
+      </a> 
+      <a href="sign_button.html">
+      <button>Sign Up</button>
+      </a>
+      
+      
+      
+    </div>
+  </header>
+
+  <section id="home" class="hero">
+    <h2>Welcome to Hello Servicer</h2>
+    <p>Your trusted partner for all types of software solutions.</p>
+    <a href="#services" class="btn">Explore Services</a>
+  </section>
+
+  <section id="services">
+    <div class="tittle">
+    <h1>Our Services</h1>
+    </div>
+    <div class="services">
+      <div class="service-box">
+        <h3>Web Development</h3>
+        <p>We design modern, responsive, and user-friendly websites for all businesses.</p>
+      </div>
+      <div class="service-box">
+        <h3>App Development</h3>
+        <p>Build scalable mobile apps for Android and iOS with our expert team.</p>
+      </div>
+      <div class="service-box">
+        <h3>Desktop App Development</h3>
+        <p>We develop efficient desktop software for Windows, Mac, and Linux platforms.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="contact">
+      <h2>Contact Us</h2>
+      <p><strong>Name:</strong> J. Gabriel</p>
+      <p><strong>Mobile:</strong> +91 6438269857</p>
+      <p><strong>Email:</strong> jgr242006@gmail.com</p>
+      <p><strong>Address:</strong> Chennai, Tamil Nadu, India</p>
+    </div>
+  </section>
+
+
+  
+  <footer>
+    <p>© 2025 Hello Servicer | All Rights Reserved</p>
+  </footer>
+
+</body>
+</html>

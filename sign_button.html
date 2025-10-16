@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sign In | Hello Servicer</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: "Poppins", sans-serif;
+    }
+
+    body {
+      background: linear-gradient(to right, #0078d7, #00b4d8);
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .sign-page {
+      background-color: white;
+      padding: 40px 50px;
+      border-radius: 15px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+      width: 350px;
+      text-align: center;
+    }
+
+    h2 {
+      color: #0078d7;
+      margin-bottom: 25px;
+    }
+
+    .sign-page form input {
+      width: 100%;
+      padding: 12px;
+      margin: 10px 0;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      outline: none;
+      transition: border-color 0.3s;
+    }
+
+    .sign-page form input:focus {
+      border-color: #0078d7;
+    }
+
+    .sign-page button {
+      width: 100%;
+      background-color: #0078d7;
+      color: white;
+      padding: 12px;
+      border: none;
+      border-radius: 8px;
+      font-size: 16px;
+      cursor: pointer;
+      margin-top: 10px;
+      transition: 0.3s;
+    }
+
+    .sign-page button:hover {
+      background-color: #005fa3;
+    }
+
+    .back-link {
+      display: block;
+      text-decoration: none;
+      color: #555;
+      font-size: 14px;
+      margin-top: 15px;
+    }
+
+    .back-link:hover {
+      color: #0078d7;
+    }
+  </style>
+</head>
+<body>
+  <div class="sign-page">
+    <h2>Sign in to Hello Servicer</h2>
+    <form action="#" method="post">
+      <input type="text" placeholder="Enter your name" required>
+      <input type="email" placeholder="Enter your Gmail address" required>
+      <input type="password" placeholder="Enter your password" required>
+      <input type="text" placeholder="Enter your number" required>
+      <button type="submit">Sign In</button>
+    </form>
+    <a href="live.html" class="back-link">← Back to Home</a>
+  </div>
+</body>
+</html>
